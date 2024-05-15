@@ -1,4 +1,5 @@
 {
+    "$schema": "https://uniswap.org/tokenlist.schema.json",
     "name": "Saakuru",
     "logoURI": "https://raw.githubusercontent.com/Saakuru-Open-Source/saakuru-token-list/ed6a8d67d67abfc873335fa88fc823b80fa03a6b/images/saakuru-network.svg",
     "keywords": [
@@ -6,85 +7,12 @@
         "saakuru"
     ],
     "timestamp": "2024-05-01T23:01:51.032Z",
-    "tags": {},
     "version": {
-        "major": 1,
+        "major": 2,
         "minor": 0,
         "patch": 0
     },
     "tokens": [
-        {
-            "chainId": 7225878,
-            "address": "0xe2dCA969624795985F2f083BcD0b674337ba130a",
-            "symbol": "SKR",
-            "name": "Saakuru",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Saakuru-Open-Source/saakuru-token-list/main/images/saakuru-token.jpeg",
-            "tags": []
-        },
-        {
-            "chainId": 56,
-            "address": "0xe2dCA969624795985F2f083BcD0b674337ba130a",
-            "symbol": "SKR",
-            "name": "Saakuru",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Saakuru-Open-Source/saakuru-token-list/main/images/saakuru-token.jpeg",
-            "tags": []
-        },
-        {
-            "chainId": 1,
-            "address": "0xe2dCA969624795985F2f083BcD0b674337ba130a",
-            "symbol": "SKR",
-            "name": "Saakuru",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Saakuru-Open-Source/saakuru-token-list/main/images/saakuru-token.jpeg",
-            "tags": []
-        },
-        {
-            "chainId": 10,
-            "address": "0xe2dCA969624795985F2f083BcD0b674337ba130a",
-            "symbol": "SKR",
-            "name": "Saakuru",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Saakuru-Open-Source/saakuru-token-list/main/images/saakuru-token.jpeg",
-            "tags": []
-        },
-        {
-            "chainId": 137,
-            "address": "0xe2dCA969624795985F2f083BcD0b674337ba130a",
-            "symbol": "SKR",
-            "name": "Saakuru",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Saakuru-Open-Source/saakuru-token-list/main/images/saakuru-token.jpeg",
-            "tags": []
-        },
-        {
-            "chainId": 42161,
-            "address": "0xe2dCA969624795985F2f083BcD0b674337ba130a",
-            "symbol": "SKR",
-            "name": "Saakuru",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Saakuru-Open-Source/saakuru-token-list/main/images/saakuru-token.jpeg",
-            "tags": []
-        },
-        {
-            "chainId": 43114,
-            "address": "0xe2dCA969624795985F2f083BcD0b674337ba130a",
-            "symbol": "SKR",
-            "name": "Saakuru",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Saakuru-Open-Source/saakuru-token-list/main/images/saakuru-token.jpeg",
-            "tags": []
-        },
-        {
-            "chainId": 8453,
-            "address": "0xe2dCA969624795985F2f083BcD0b674337ba130a",
-            "symbol": "SKR",
-            "name": "Saakuru",
-            "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/Saakuru-Open-Source/saakuru-token-list/main/images/saakuru-token.jpeg",
-            "tags": []
-        },
         {
             "chainId": 7225878,
             "address": "0x557a526472372f1F222EcC6af8818C1e6e78A85f",
@@ -92,25 +20,165 @@
             "name": "Wrapped Oasys",
             "decimals": 18,
             "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/22265.png",
-            "tags": []
+            "extensions": {
+                "bridgeInfo": {}
+            }
         },
         {
             "chainId": 7225878,
-            "address": "0x7c6b91d9be155a6db01f749217d76ff02a7227f2",
+            "address": "0xD457DE2ebCE0D70F571718Ad66A28273b5956105",
             "symbol": "USDT",
             "name": "Tether USD",
-            "decimals": 18,
+            "decimals": 6,
             "logoURI": "https://assets.coingecko.com/coins/images/325/thumb/Tether.png?1696501661",
-            "tags": []
+            "extensions": {
+                "bridgeInfo": {}
+            }
         },
         {
             "chainId": 7225878,
-            "address": "0xf3ad01CF8E4D3ef95f5D480Ec534dD98CAa0555f",
+            "address": "0x739222D8A9179fE05129C77a8fa354049c088CaA",
+            "symbol": "USDC.e",
+            "name": "Bridged USDC",
+            "decimals": 6,
+            "logoURI": "https://assets.coingecko.com/coins/images/6319/standard/usdc.png?1696506694",
+            "extensions": {
+                "bridgeInfo": {
+                    "42161": {
+                        "tokenAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+                    },
+                    "43114": {
+                        "tokenAddress": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+                    },
+                    "8453": {
+                        "tokenAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+                    },
+                    "1": {
+                        "tokenAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+                    },
+                    "10": {
+                        "tokenAddress": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85"
+                    },
+                    "137": {
+                        "tokenAddress": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+                    },
+                    "324": {
+                        "tokenAddress": "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4"
+                    }
+                }
+            }
+        },
+        {
+            "chainId": 7225878,
+            "address": "0xf3ad01cf8e4d3ef95f5d480ec534dd98caa0555f",
             "symbol": "SATS",
             "name": "Satoshi",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/SmolDapp/tokenAssets/main/tokens/8453/0x9d36f8f62347538440a212e9162f534f797542df/logo-128.png",
-            "tags": []
+            "extensions": {
+                "bridgeInfo": {
+                    "1": {
+                        "tokenAddress": "0x9d36f8f62347538440a212e9162f534f797542df"
+                    },
+                    "10": {
+                        "tokenAddress": "0x9d36f8f62347538440a212e9162f534f797542df"
+                    },
+                    "8453": {
+                        "tokenAddress": "0x9d36f8f62347538440a212e9162f534f797542df"
+                    },
+                    "42161": {
+                        "tokenAddress": "0x9d36f8f62347538440a212e9162f534f797542df"
+                    },
+                    "137": {
+                        "tokenAddress": "0x9d36f8f62347538440a212e9162f534f797542df"
+                    }
+                }
+            }
+        },
+        {
+            "chainId": 7225878,
+            "address": "0xe7798f023fc62146e8aa1b36da45fb70855a77ea",
+            "symbol": "TCGC",
+            "name": "TCGC",
+            "decimals": 18,
+            "logoURI": "https://app.v2.tealswap.com/img/token/TCGC.png",
+            "extensions": {
+                "bridgeInfo": {}
+            }
+        },
+        {
+            "chainId": 7225878,
+            "address": "0x50c5725949a6f0c72e6c4a641f24049a917db0cb",
+            "symbol": "MCHC",
+            "name": "MCH Coin",
+            "decimals": 18,
+            "logoURI": "https://app.v2.tealswap.com/img/token/MCHC.png",
+            "extensions": {
+                "bridgeInfo": {}
+            }
+        },
+        {
+            "chainId": 7225878,
+            "address": "0x02d728b9c1513478a6b6de77a92648e1d8f801e7",
+            "symbol": "DOG",
+            "name": "The Doge NFT",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/18111/standard/Doge.png?1696517615",
+            "extensions": {
+                "bridgeInfo": {
+                    "1": {
+                        "tokenAddress": "0xbaac2b4491727d78d2b78815144570b9f2fe8899"
+                    },
+                    "56": {
+                        "tokenAddress": "0xaa88c603d142c371ea0eac8756123c5805edee03"
+                    },
+                    "137": {
+                        "tokenAddress": "0xeEe3371B89FC43Ea970E908536Fcddd975135D8a"
+                    },
+                    "10": {
+                        "tokenAddress": "0x8F69Ee043d52161Fd29137AeDf63f5e70cd504D5"
+                    },
+                    "42161": {
+                        "tokenAddress": "0x4425742F1EC8D98779690b5A3A6276Db85Ddc01A"
+                    },
+                    "8453": {
+                        "tokenAddress": "0xafb89a09d82fbde58f18ac6437b3fc81724e4df6"
+                    }
+                }
+            }
+        },
+        {
+            "chainId": 7225878,
+            "address": "0xe2dCA969624795985F2f083BcD0b674337ba130a",
+            "symbol": "SKR",
+            "name": "Saakuru",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/Saakuru-Open-Source/saakuru-token-list/main/images/saakuru-token.jpeg",
+            "extensions": {
+                "bridgeInfo": {
+                    "56": {
+                        "tokenAddress": "0xe2dCA969624795985F2f083BcD0b674337ba130a"
+                    },
+                    "1": {
+                        "tokenAddress": "0xe2dCA969624795985F2f083BcD0b674337ba130a"
+                    },
+                    "10": {
+                        "tokenAddress": "0xe2dCA969624795985F2f083BcD0b674337ba130a"
+                    },
+                    "137": {
+                        "tokenAddress": "0xe2dCA969624795985F2f083BcD0b674337ba130a"
+                    },
+                    "42161": {
+                        "tokenAddress": "0xe2dCA969624795985F2f083BcD0b674337ba130a"
+                    },
+                    "43114": {
+                        "tokenAddress": "0xe2dCA969624795985F2f083BcD0b674337ba130a"
+                    },
+                    "8453": {
+                        "tokenAddress": "0xe2dCA969624795985F2f083BcD0b674337ba130a"
+                    }
+                }
+            }
         }
     ]
 }
