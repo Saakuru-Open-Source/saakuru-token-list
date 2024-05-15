@@ -188,7 +188,20 @@
             "decimals": 5,
             "logoURI": "https://assets.coingecko.com/coins/images/28600/standard/bonk.jpg?1696527587",
             "extensions": {
-                "bridgeInfo": {}
+                "bridgeInfo": {
+                    "1": {
+                        "tokenAddress": "0x1151cb3d861920e07a38e03eead12c32178567f6"
+                    },
+                    "42161": {
+                        "tokenAddress": "0x09199d9a5f4448d0848e4395d065e1ad9c4a1f74"
+                    },
+                    "137": {
+                        "tokenAddress": "0xe5b49820e5a1063f6f4ddf851327b5e8b2301048"
+                    },
+                    "56": {
+                        "tokenAddress": "0xa697e272a73744b343528c3bc4702f2565b2f422"
+                    }
+                }
             }
         },
         {
@@ -199,7 +212,17 @@
             "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/29850/standard/pepe-token.jpeg?1696528776",
             "extensions": {
-                "bridgeInfo": {}
+                "bridgeInfo": {
+                    "1": {
+                        "tokenAddress": "0x6982508145454ce325ddbe47a25d4ec3d2311933"
+                    },
+                    "42161": {
+                        "tokenAddress": "0x25d887ce7a35172c62febfd67a1856f20faebb00"
+                    },
+                    "56": {
+                        "tokenAddress": "0x25d887ce7a35172c62febfd67a1856f20faebb00"
+                    }
+                }
             }
         },
         {
@@ -210,7 +233,11 @@
             "decimals": 8,
             "logoURI": "https://assets.coingecko.com/coins/images/5/standard/dogecoin.png?1696501409",
             "extensions": {
-                "bridgeInfo": {}
+                "bridgeInfo": {
+                    "56": {
+                        "tokenAddress": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43"
+                    }
+                }
             }
         }
     ]
